@@ -1,14 +1,29 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import styled from "styled-components";
 import "./App.css";
 import { generateRandom } from "./Redux/value";
+import { useNavigate } from "react-router-dom";
 
 function App() {
-  
+  // const [a1, seta1] = useState("0");
+
+  // function generateRandom(setVar) {
+  //   setVar(Math.floor(Math.random() * 15));
+  // }
+
   const { a1 } = useSelector((state) => state.value);
   const dispatch = useDispatch();
-  
+
+  const navigate = useNavigate();
+  useEffect(() => {
+    if (a1 > 10) {
+      setTimeout(() => {
+        navigate("/result");
+      }, 3000);
+    }
+  }, [a1]);
+
   const PTag = styled.p`
     font-size: 10rem;
   `;
@@ -49,17 +64,16 @@ function App() {
     display: ${a1 > 10 ? "block" : "none"};
   `;
 
-  // const [a1, seta1] = useState("0");
-
-  // function generateRandom(setVar) {
-  //   setVar(Math.floor(Math.random() * 15));
-  // }
-
-
   return (
     <Container>
       <PTag>{a1}</PTag>
-      <Button onClick={() => dispatch(generateRandom())}>Generate</Button>
+      <Button
+        onClick={() => {
+          dispatch(generateRandom());
+        }}
+      >
+        Generate
+      </Button>
       <Message>
         <h3>Target Achieved</h3>
         <p>You will be redirected soon</p>
