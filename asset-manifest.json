@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/numberGame/static/css/main.073c9b0a.css",
-    "main.js": "/numberGame/static/js/main.d2386a35.js",
+    "main.js": "/numberGame/static/js/main.4a46dd40.js",
     "static/js/787.62876f5f.chunk.js": "/numberGame/static/js/787.62876f5f.chunk.js",
     "index.html": "/numberGame/index.html",
     "main.073c9b0a.css.map": "/numberGame/static/css/main.073c9b0a.css.map",
-    "main.d2386a35.js.map": "/numberGame/static/js/main.d2386a35.js.map",
+    "main.4a46dd40.js.map": "/numberGame/static/js/main.4a46dd40.js.map",
     "787.62876f5f.chunk.js.map": "/numberGame/static/js/787.62876f5f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.d2386a35.js"
+    "static/js/main.4a46dd40.js"
   ]
 }
