@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tanishchugh01/numberGame/static/css/main.073c9b0a.css",
+    "main.js": "/tanishchugh01/numberGame/static/js/main.14f0c337.js",
+    "static/js/787.62876f5f.chunk.js": "/tanishchugh01/numberGame/static/js/787.62876f5f.chunk.js",
+    "index.html": "/tanishchugh01/numberGame/index.html",
+    "main.073c9b0a.css.map": "/tanishchugh01/numberGame/static/css/main.073c9b0a.css.map",
+    "main.14f0c337.js.map": "/tanishchugh01/numberGame/static/js/main.14f0c337.js.map",
+    "787.62876f5f.chunk.js.map": "/tanishchugh01/numberGame/static/js/787.62876f5f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.14f0c337.js"
+  ]
+}
