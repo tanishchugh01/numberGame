@@ -13,8 +13,9 @@ root.render(
   <BrowserRouter>
     <Provider store={store}>
       <Routes>
-        <Route path="/" element={<App />}></Route>
-        <Route path="/result" element={<Result />}></Route>
+        {/* numberGame is the name of repository */}
+        <Route path="/numberGame/" element={<App />}></Route>
+        <Route path="/numberGame/result" element={<Result />}></Route>
       </Routes>
     </Provider>
   </BrowserRouter>

@@ -19,7 +19,7 @@ function App() {
   useEffect(() => {
     if (a1 > 10) {
       setTimeout(() => {
-        navigate("/result");
+        navigate("/numberGame/result");
       }, 3000);
     }
   }, [a1]);
